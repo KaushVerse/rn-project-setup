@@ -1,10 +1,5 @@
-# Project Name
+# 🚀 Project Setup
 
-A short description of what this project does and who it's for.
-
-## 🚀 Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## 📂 Folder Structure
+## Fonts Setup
+```npx react-native asset
+```
