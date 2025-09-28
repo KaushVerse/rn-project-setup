@@ -1,5 +1,7 @@
 # 🚀 Project Setup
 
-## Fonts Setup
-```npx react-native asset
-```
+## 🔤 Fonts Setup
+To link custom fonts in React Native, run:
+
+```bash
+npx react-native-asset
