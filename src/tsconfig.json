@@ -1,0 +1,35 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@features/*": ["src/features/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@components/*": ["src/components/*"],
+      "@unistyles/*": ["src/unistyles/*"],
+      "@states/*": ["src/states/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@styles/*": ["src/styles/*"],
+      "@api/*": ["src/api/*"],
+      "@store/*": ["src/store/*"],
+      "@screens/*": ["src/screens/*"],
+      "@types/*": ["src/types/*"],
+      "@config/*": ["src/config/*"],
+      "@theme/*": ["src/theme/*"],
+      "@constants/*": ["src/constants/*"],
+      "@context/*": ["src/context/*"],
+      "@graphql/*": ["src/graphql/*"],
+      "@locales/*": ["src/locales/*"],
+      "@data/*": ["src/data/*"],
+      "@storage": ["src/storage/*"],
+      "@libs": ["src/libs/*"],
+      "@interfaces": ["src/interfaces/*"]
+    }
+  },
+  "include": ["src", "src/types/env.d.ts"]
+}
