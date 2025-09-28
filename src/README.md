@@ -26,7 +26,7 @@ npm install react-native-svg react-native-svg-transformer
 npm install --save-dev babel-plugin-module-resolver
 
 ```
-## build.gradlew link Icon
+## 🖼️ Icon Management in build.gradle – Naming Best Practices
 
 ```bash
 
