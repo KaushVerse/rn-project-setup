@@ -25,3 +25,10 @@ npm install react-native-svg react-native-svg-transformer
 # Babel Module Resolver
 npm install --save-dev babel-plugin-module-resolver
 
+# build.gradlew link Icon
+project.ext.vectoricons = [
+     iconFontNames: ['MaterialIcons.ttf', 'EvilIcons.ttf', 'Fontisto.ttf', 'FontAwesome.ttf', 'Foundation.ttf', 'Ionicons.ttf', 'MaterialCommunityIcons.ttf', 'Octicons.ttf', 'SimpleLineIcons.ttf', 'Zocial.ttf'
+     ]
+    ]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
